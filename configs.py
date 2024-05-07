@@ -7,7 +7,7 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID", 6682330))
     API_HASH = os.environ.get("API_HASH", "a1c264a07c3d7e1eedc83c746a4a9777")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5575527838:AAF5kKxE3my_sMa3rlPS1ekhytcKNA_LKwk")
-    SESSION_NAME = os.environ.get("SESSION_NAME", "yooyBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "yooybot")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002092818514))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
