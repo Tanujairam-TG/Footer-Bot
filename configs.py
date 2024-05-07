@@ -11,7 +11,7 @@ class Config(object):
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002092818514))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1669772418)
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1669772418))
     MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://Tanu:Tanu@cluster0.4yzsz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     START_TEXT = """Hi {name},I am a anjumani footer bot join my channel https://t.me/anjumani_zone!
 
