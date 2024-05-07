@@ -19,7 +19,7 @@ from helpers.fetch_me import FetchMeOnChat
 from helpers.add_footer import AddFooter
 
 AHBot = Client(
-    session_name=Config.SESSION_NAME,
+    session_name = "Footer-Bot",
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN
